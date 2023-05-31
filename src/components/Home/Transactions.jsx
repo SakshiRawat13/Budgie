@@ -59,11 +59,11 @@ export default function Transactions() {
 								)}
 								<div className="badges flex gap-3 flex-wrap">
 									<Badge
-										text={`${
+										text={`Rs ${
 											tr.cost
 												? `-${Number(tr.cost)}`
 												: `+${Number(tr.amount)}`
-										} DH`}
+										} `}
 										isCost={tr.cost ? 1 : 2}
 									/>
 									<Badge
